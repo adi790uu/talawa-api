@@ -54,6 +54,7 @@ export interface InterfaceUser {
   tokenVersion: number;
   updatedAt: Date;
   userType: string;
+  randomTest: string;
 }
 /**
  * This describes the schema for a `User` that corresponds to `InterfaceUser` document.
@@ -86,6 +87,7 @@ export interface InterfaceUser {
  * @param tokenVersion - Token version.
  * @param updatedAt - Timestamp of data updation
  * @param userType - User type.
+ * @param randomTest - test
  */
 const userSchema = new Schema(
   {
