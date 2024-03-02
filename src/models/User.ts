@@ -55,6 +55,7 @@ export interface InterfaceUser {
   updatedAt: Date;
   userType: string;
   randomTest: string;
+  randomTest2: string;
 }
 /**
  * This describes the schema for a `User` that corresponds to `InterfaceUser` document.
@@ -88,6 +89,7 @@ export interface InterfaceUser {
  * @param updatedAt - Timestamp of data updation
  * @param userType - User type.
  * @param randomTest - test
+ * @param randomTest2 - test2
  */
 const userSchema = new Schema(
   {
@@ -275,6 +277,12 @@ const userSchema = new Schema(
       required: true,
       enum: ["USER", "ADMIN", "SUPERADMIN", "NON_USER"],
       default: "USER",
+    },
+    randomTest: {
+      type: String,
+    },
+    randomTest2: {
+      type: String,
     },
   },
   {
