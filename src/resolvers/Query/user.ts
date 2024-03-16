@@ -3,7 +3,7 @@ import type { QueryResolvers } from "../../types/generatedGraphQLTypes";
 import { errors } from "../../libraries";
 import { User } from "../../models";
 /**
- * This query fetch the user from the database.
+ * This query fetch the user from the database. Aditya
  * @param _parent-
  * @param args - An object that contains `id` for the user.
  * @param context-
