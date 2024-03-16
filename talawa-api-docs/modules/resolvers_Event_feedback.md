@@ -1,0 +1,19 @@
+[talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Event/feedback
+
+# Module: resolvers/Event/feedback
+
+## Table of contents
+
+### Variables
+
+- [feedback](resolvers_Event_feedback.md#feedback)
+
+## Variables
+
+### feedback
+
+• `Const` **feedback**: [`EventResolvers`](types_generatedGraphQLTypes.md#eventresolvers)[``"feedback"``]
+
+#### Defined in
+
+[src/resolvers/Event/feedback.ts:4](https://github.com/adi790uu/talawa-api/blob/b1ec05b/src/resolvers/Event/feedback.ts#L4)
